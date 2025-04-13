@@ -5,7 +5,7 @@
 class CMyFrame : public CFrameWnd
 {
 public:
-    CMyFrame();
+	CMyFrame();
 };
 
 CMyFrame::CMyFrame()
@@ -16,7 +16,7 @@ CMyFrame::CMyFrame()
 // 2. Class to create and show application UI.//
 class CMyApp : public CWinApp
 {
-    BOOL InitInstance();
+	BOOL InitInstance();
 };
 
 BOOL CMyApp::InitInstance()
