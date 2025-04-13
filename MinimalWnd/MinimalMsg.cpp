@@ -5,7 +5,7 @@
 class CMyFrame : public CFrameWnd
 {
 public:
-    CMyFrame();
+	CMyFrame();
 protected:
 	DECLARE_MESSAGE_MAP()
 	void OnClose();
@@ -34,7 +34,7 @@ void CMyFrame::OnClose()
 void CMyFrame::OnPaint()
 {
 	CPaintDC dc(this);
-    CRect rcClient;
+	CRect rcClient;
 	GetClientRect(&rcClient);
 	dc.DrawText(_T("Hello World!"), rcClient, DT_SINGLELINE | DT_CENTER | DT_VCENTER);
 }
@@ -42,7 +42,7 @@ void CMyFrame::OnPaint()
 // 2. Class to create and show application UI.//
 class CMyApp : public CWinApp
 {
-    BOOL InitInstance();
+	BOOL InitInstance();
 };
 
 BOOL CMyApp::InitInstance()
