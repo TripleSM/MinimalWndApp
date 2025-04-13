@@ -1,6 +1,5 @@
 /*
-csc.exe MinimalWndWPF.cs /out:WPFApplication.exe /target:winexe 
-/reference:"WPF\presentationframework.dll","WPF\windowsbase.dll","WPF\presentationcore.dll"
+csc.exe MinimalWndWPF.cs /out:WPFApplication.exe /target:winexe /reference:"WPF\presentationframework.dll","WPF\windowsbase.dll","WPF\presentationcore.dll"
 */
 
 using System;
